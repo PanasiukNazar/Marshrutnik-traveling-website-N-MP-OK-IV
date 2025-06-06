@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+    Basic Page Needs
+    ==================================================
+    -->
+        <meta charset="utf-8" />
+        <title>Marshrutnik</title>
+        <!--
+    Mobile Specific Metas
+    ==================================================
+    -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        />
+        <meta
+            name="description"
+            content="Откройте для себя лучшие туристические маршруты, полезные советы для путешествий и уникальные путеводители. Всё для комфортного и безопасного путешествия."
+        />
+        <meta
+            name="keywords"
+            content="путешествия, туризм, путеводители, туристические советы, выбор маршрута, советы путешественникам, планирование поездки, маршруты, путешествия по миру"
+        />
+        <meta
+            name="author"
+            content="Иван Петров, Анна Смирнова, Алексей Кузнецов, Елена Орлова"
+        />
+        <meta
+            property="og:title"
+            content="Путеводители, советы и маршруты для путешествий — Всё для туристов"
+        />
+        <meta
+            property="og:description"
+            content="Полезные советы, маршруты и путеводители для вашего следующего путешествия."
+        />
+        <!--
+    CSS
+    ==================================================
+    -->
+        <!-- Bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- Morris CSS -->
+        <link rel="stylesheet" href="css/morris.css" />
+        <!-- FontAwesome-->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <!-- Icon font-->
+        <link rel="stylesheet" href="css/icon-font.css" />
+        <!-- Owl Carousel-->
+
+        <link
+            rel="shortcut icon"
+            href="images/favicon.ico"
+            type="image/x-icon"
+        />
+
+        <!-- Colorbox-->
+        <link rel="stylesheet" href="css/colorbox.css" />
+        <!-- Template styles-->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Responsive styles-->
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file.-->
+        <!--if lt IE 9
+    script(src='js/html5shiv.js')
+    script(src='js/respond.min.js')
+    --></head>
+
+    <body>
+        <div class="body-inner">
+            <div class="site-top-2">
+                <header class="header nav-down" id="header-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="logo-area clearfix">
+                                <div class="logo col-lg-3 col-md-12">
+                                    <a href="index.html">
+                                        <h2 style="color: #2c5f2d">
+                                            Marshrutnik
+                                        </h2>
+                                    </a>
+                                </div>
+                                <!-- logo end-->
+                                <div class="col-lg-9 col-md-12 pull-right">
+                                    <ul class="top-info unstyled">
+                                        <li>
+                                            <span class="info-icon"
+                                                ><i class="icon icon-phone3"></i
+                                            ></span>
+                                            <div class="info-wrapper">
+                                                <p class="info-title">
+                                                    Поддержка 24/7
+                                                </p>
+                                                <p class="info-subtitle">
+                                                    +77775259885
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="info-icon"
+                                                ><i
+                                                    class="icon icon-envelope"
+                                                ></i
+                                            ></span>
+                                            <div class="info-wrapper">
+                                                <p class="info-title">
+                                                    Напишите нам
+                                                </p>
+                                                <p class="info-subtitle">
+                                                    marshrutnik@gmail.com
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Col End-->
+                            </div>
+                            <!-- Logo Area End-->
+                        </div>
+                    </div>
+                    <!-- Container end-->
+                    <div
+                        class="site-nav-inner site-navigation navigation navdown"
+                    >
+                        <div class="container">
+                            <nav class="navbar navbar-expand-lg">
+                                <button
+                                    class="navbar-toggler"
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation"
+                                >
+                                    <span class="navbar-toggler-icon"
+                                        ><i class="icon icon-menu"></i
+                                    ></span>
+                                </button>
+                                <!-- End of Navbar toggler-->
+                                <div
+                                    class="collapse navbar-collapse justify-content-start"
+                                    id="navbarSupportedContent"
+                                >
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a href="index.html">Главная</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="about.html">О нас</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="service.html">Услуги</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="testimonials.html"
+                                                >Отзывы</a
+                                            >
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="contact.html">Контакты</a>
+                                        </li>
+                                    </ul>
+                                    <!--Nav ul end-->
+                                </div>
+                                <a
+                                    href="contact.html"
+                                    class="top-right-btn btn btn-primary"
+                                    >Оставить заявку</a
+                                >
+                                <!-- Top bar btn -->
+                            </nav>
+                            <!-- Collapse end-->
+                        </div>
+                    </div>
+                    <!-- Site nav inner end-->
+                </header>
+                <!-- Header end-->
+            </div>
+
+            <div
+                class="banner-area"
+                id="banner-area"
+                style="background-image: url(images/banner/banner2.jpg)"
+            >
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <div class="banner-heading">
+                                <h1 class="banner-title">Свяжитесь с нами</h1>
+                                <ol class="breadcrumb">
+                                    <li>Главная</li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- Col end-->
+                    </div>
+                    <!-- Row end-->
+                </div>
+                <!-- Container end-->
+            </div>
+            <!-- Banner area end-->
+
+            <section class="main-container contact-area" id="main-container">
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.8759736074564!2d76.95691903226195!3d43.25901213623755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f090379c40b%3A0xfd027ce6f7a2b68c!2sKazakhstan%20Travel%20Agency!5e0!3m2!1suk!2sua!4v1749194997490!5m2!1suk!2sua"
+                        width="100%"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+                <div class="gap-60"></div>
+                <div class="ts-form form-boxed" id="ts-form">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-wrapper full-contact">
+                                <div class="col-lg-6">
+                                    <h3 class="column-title">
+                                        Свяжитесь с нами
+                                    </h3>
+                                    <p class="contact-content">
+                                        Мы рады помочь вам открыть новые
+                                        маршруты, подобрать идеальные
+                                        направления и поделиться полезными
+                                        советами для вашего следующего
+                                        путешествия. Наши специалисты готовы
+                                        подсказать лучшие туристические решения.
+                                    </p>
+                                    <div
+                                        class="contact-info-box contact-box info-box"
+                                    >
+                                        <div class="contact-info">
+                                            <div class="ts-contact-info">
+                                                <span
+                                                    class="ts-contact-icon float-left"
+                                                    ><i
+                                                        class="icon icon-map-marker2"
+                                                    ></i
+                                                ></span>
+                                                <div class="ts-contact-content">
+                                                    <h3
+                                                        class="ts-contact-title"
+                                                    >
+                                                        Где мы
+                                                    </h3>
+                                                    <p>
+                                                        ул. Зенкова 24, Алматы
+                                                        050000, Казахстан
+                                                    </p>
+                                                </div>
+                                                <!-- Contact content end-->
+                                            </div>
+                                            <div class="ts-contact-info">
+                                                <span
+                                                    class="ts-contact-icon float-left"
+                                                    ><i
+                                                        class="icon icon-phone3"
+                                                    ></i
+                                                ></span>
+                                                <div class="ts-contact-content">
+                                                    <h3
+                                                        class="ts-contact-title"
+                                                    >
+                                                        Позвоните нам
+                                                    </h3>
+                                                    <p>+77775259885</p>
+                                                </div>
+                                                <!-- Contact content end-->
+                                            </div>
+                                            <div class="ts-contact-info last">
+                                                <span
+                                                    class="ts-contact-icon float-left"
+                                                    ><i
+                                                        class="icon icon-envelope"
+                                                    ></i
+                                                ></span>
+                                                <div class="ts-contact-content">
+                                                    <h3
+                                                        class="ts-contact-title"
+                                                    >
+                                                        Напишите нам
+                                                    </h3>
+                                                    <p>marshrutnik@gmail.com</p>
+                                                </div>
+                                                <!-- Contact content end-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Contact info end -->
+                                <div class="col-lg-6">
+                                    <h3 class="column-title">
+                                        Напишите сейчас
+                                    </h3>
+                                    <div
+                                        class="contact-submit-box contact-box form-box"
+                                    >
+                                        <form
+                                            class="contact-form"
+                                            action="thanks.html"
+                                            method="get"
+                                        >
+                                            <div class="error-container"></div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <input
+                                                            class="form-control form-name"
+                                                            id="name"
+                                                            name="name"
+                                                            placeholder="Ваше имя"
+                                                            type="text"
+                                                            required
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <!-- Col end-->
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <input
+                                                            class="form-control form-website"
+                                                            id="url"
+                                                            name="url"
+                                                            placeholder="Ваш сайт (если есть)"
+                                                            type="url"
+                                                            required
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <input
+                                                            class="form-control form-email"
+                                                            id="email"
+                                                            name="email"
+                                                            placeholder="Ваш email"
+                                                            type="email"
+                                                            required
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <textarea
+                                                            class="form-control form-message required-field"
+                                                            id="message"
+                                                            placeholder="Ваше сообщение"
+                                                            rows="8"
+                                                        ></textarea>
+                                                    </div>
+                                                </div>
+                                                <!-- Col 12 end-->
+                                            </div>
+                                            <!-- Form row end-->
+                                            <button
+                                                class="btn btn-primary tw-mt-30"
+                                                type="submit"
+                                                id="submit"
+                                            >
+                                                <i
+                                                    class="fa fa-paper-plane-o"
+                                                ></i>
+                                                Отправить сообщение
+                                            </button>
+                                        </form>
+                                        <!-- Form end-->
+                                    </div>
+                                </div>
+                                <!-- Contact form end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer start-->
+            <footer class="footer" id="footer">
+                <div class="footer-main bg-overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div
+                                class="col-lg-4 col-md-12 footer-widget footer-about"
+                            >
+                                <div class="footer-logo">
+                                    <h2 style="color: #97bc62ff">
+                                        Marshrutnik
+                                    </h2>
+                                </div>
+                                <p>
+                                    Благодарим за посещение нашего сайта. Мы
+                                    стремимся предоставить экспертные
+                                    рекомендации в сфере путешествий: маршруты,
+                                    советы и путеводители, чтобы сделать ваше
+                                    путешествие комфортным и интересным.
+                                </p>
+
+                                <h3 class="widget-title">
+                                    Подписка на новости!
+                                </h3>
+                                <form
+                                    class="newsletter-form"
+                                    action="thanks.html"
+                                    method="get"
+                                >
+                                    <div class="form-group">
+                                        <input
+                                            class="form-control form-control-lg"
+                                            id="email"
+                                            type="email"
+                                            name="email"
+                                            placeholder="Email "
+                                            autocomplete="off"
+                                            required
+                                        />
+                                        <button
+                                            class="btn btn-primary"
+                                            id="submit"
+                                        >
+                                            <i class="fa fa-paper-plane"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- About us end-->
+                            <div class="col-lg-4 col-md-6 footer-widget">
+                                <h3 class="widget-title">Быстрые ссылки</h3>
+                                <ul class="list-dash">
+                                    <li><a href="home.html">Главная</a></li>
+                                    <li><a href="about.html">О нас</a></li>
+                                    <li>
+                                        <a href="service.html">Наши услуги</a>
+                                    </li>
+                                    <li>
+                                        <a href="testimonials.html">Отзывы</a>
+                                    </li>
+                                    <li>
+                                        <a href="terms-of-use.html"
+                                            >Условия использования</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html"
+                                            >Политика конфиденциальности</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html"
+                                            >Политика cookies</a
+                                        >
+                                    </li>
+                                    <li><a href="contact.html">Контакты</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-6 footer-widget">
+                                <h3 class="widget-title">Контакты</h3>
+                                <div class="ts-contact-info">
+                                    <span class="ts-contact-icon float-left">
+                                        <i class="icon icon-map-marker2"></i>
+                                    </span>
+                                    <div class="ts-contact-content">
+                                        <h3 class="ts-contact-title">Адрес</h3>
+                                        <p>
+                                            ул. Зенкова 24, Алматы 050000,
+                                            Казахстан
+                                        </p>
+                                    </div>
+                                    <!-- Contact content end-->
+                                </div>
+
+                                <div class="ts-contact-info last">
+                                    <span class="ts-contact-icon float-left">
+                                        <i class="icon icon-envelope"></i>
+                                    </span>
+                                    <div class="ts-contact-content">
+                                        <h3 class="ts-contact-title">
+                                            Электронная почта
+                                        </h3>
+                                        <p>marshrutnik@gmail.com</p>
+                                    </div>
+                                    <!-- Contact content end-->
+                                </div>
+                                <div class="ts-contact-info">
+                                    <span class="ts-contact-icon float-left">
+                                        <i class="icon icon-phone3"></i>
+                                    </span>
+                                    <div class="ts-contact-content">
+                                        <h3 class="ts-contact-title">
+                                            Телефон
+                                        </h3>
+                                        <p>+77775259885</p>
+                                    </div>
+                                    <!-- Contact content end-->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Content row end-->
+                    </div>
+                    <!-- Container end-->
+                </div>
+            </footer>
+            <!-- Footer end-->
+
+            <!-- Cookie banner -->
+            <div class="cookie-wrapper show">
+                <div>
+                    <i class="bx bx-cookie"></i>
+                    <h2 style="text-align: center">Согласие на cookie</h2>
+                </div>
+
+                <div class="data">
+                    <p>
+                        Этот сайт использует cookie-файлы для того, чтобы
+                        обеспечить максимально удобный и персонализированный
+                        опыт путешествий.
+                        <a href="cookie-policy.html">Узнать больше...</a>
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <button class="cookie-button" id="acceptBtn">
+                        Принять
+                    </button>
+                    <button class="cookie-button" id="declineBtn">
+                        Отклонить
+                    </button>
+                </div>
+            </div>
+            <!-- End Cookie banner -->
+
+            <div
+                class="back-to-top affix"
+                id="back-to-top"
+                data-spy="affix"
+                data-offset-top="10"
+            >
+                <button class="btn btn-primary" title="Back to Top">
+                    <i class="fa fa-angle-double-up"></i>
+                    <!-- icon end-->
+                </button>
+                <!-- button end-->
+            </div>
+            <!-- End Back to Top-->
+
+            <!--
+      Javascript Files
+      ==================================================
+      -->
+
+            <!-- initialize jQuery Library (Google CDN) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+            <!-- Bootstrap jQuery (jsDelivr CDN as Bootstrap JavaScript is not on Google CDN) -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Owl Carousel (jsDelivr CDN) -->
+            <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+
+            <!-- Counter (use CDNJS) -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+            <!-- Waypoints (CDNJS) -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+            <!-- Colorbox (CDNJS) -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
+
+            <!-- Template custom scripts (local) -->
+            <script type="text/javascript" src="js/custom.js"></script>
+            <script type="text/javascript" src="js/cookiebanner.js"></script>
+        </div>
+        <!--Body Inner end-->
+    </body>
+</html>

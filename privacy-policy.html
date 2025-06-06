@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+    Basic Page Needs
+    ==================================================
+    -->
+        <meta charset="utf-8" />
+        <title>Marshrutnik</title>
+        <!--
+    Mobile Specific Metas
+    ==================================================
+    -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        />
+        <meta
+            name="description"
+            content="Откройте для себя лучшие туристические маршруты, полезные советы для путешествий и уникальные путеводители. Всё для комфортного и безопасного путешествия."
+        />
+        <meta
+            name="keywords"
+            content="путешествия, туризм, путеводители, туристические советы, выбор маршрута, советы путешественникам, планирование поездки, маршруты, путешествия по миру"
+        />
+        <meta
+            name="author"
+            content="Иван Петров, Анна Смирнова, Алексей Кузнецов, Елена Орлова"
+        />
+        <meta
+            property="og:title"
+            content="Путеводители, советы и маршруты для путешествий — Всё для туристов"
+        />
+        <meta
+            property="og:description"
+            content="Полезные советы, маршруты и путеводители для вашего следующего путешествия."
+        />
+        <!--
+    CSS
+    ==================================================
+    -->
+        <!-- Bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- Morris CSS -->
+        <link rel="stylesheet" href="css/morris.css" />
+        <!-- FontAwesome-->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <!-- Icon font-->
+        <link rel="stylesheet" href="css/icon-font.css" />
+        <!-- Owl Carousel-->
+
+        <link
+            rel="shortcut icon"
+            href="images/favicon.ico"
+            type="image/x-icon"
+        />
+
+        <!-- Colorbox-->
+        <link rel="stylesheet" href="css/colorbox.css" />
+        <!-- Template styles-->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Responsive styles-->
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file.-->
+        <!--if lt IE 9
+    script(src='js/html5shiv.js')
+    script(src='js/respond.min.js')
+    --></head>
+
+    <body>
+        <div class="body-inner">
+            <div class="site-top-2">
+                <header class="header nav-down" id="header-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="logo-area clearfix">
+                                <div class="logo col-lg-3 col-md-12">
+                                    <a href="index.html">
+                                        <h2 style="color: #2c5f2d">
+                                            Marshrutnik
+                                        </h2>
+                                    </a>
+                                </div>
+                                <!-- logo end-->
+                                <div class="col-lg-9 col-md-12 pull-right">
+                                    <ul class="top-info unstyled">
+                                        <li>
+                                            <span class="info-icon"
+                                                ><i class="icon icon-phone3"></i
+                                            ></span>
+                                            <div class="info-wrapper">
+                                                <p class="info-title">
+                                                    Поддержка 24/7
+                                                </p>
+                                                <p class="info-subtitle">
+                                                    +77775259885
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="info-icon"
+                                                ><i
+                                                    class="icon icon-envelope"
+                                                ></i
+                                            ></span>
+                                            <div class="info-wrapper">
+                                                <p class="info-title">
+                                                    Напишите нам
+                                                </p>
+                                                <p class="info-subtitle">
+                                                    marshrutnik@gmail.com
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Col End-->
+                            </div>
+                            <!-- Logo Area End-->
+                        </div>
+                    </div>
+                    <!-- Container end-->
+                    <div
+                        class="site-nav-inner site-navigation navigation navdown"
+                    >
+                        <div class="container">
+                            <nav class="navbar navbar-expand-lg">
+                                <button
+                                    class="navbar-toggler"
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation"
+                                >
+                                    <span class="navbar-toggler-icon"
+                                        ><i class="icon icon-menu"></i
+                                    ></span>
+                                </button>
+                                <!-- End of Navbar toggler-->
+                                <div
+                                    class="collapse navbar-collapse justify-content-start"
+                                    id="navbarSupportedContent"
+                                >
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a href="index.html">Главная</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="about.html">О нас</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="service.html">Услуги</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="testimonials.html"
+                                                >Отзывы</a
+                                            >
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="contact.html">Контакты</a>
+                                        </li>
+                                    </ul>
+                                    <!--Nav ul end-->
+                                </div>
+                                <a
+                                    href="contact.html"
+                                    class="top-right-btn btn btn-primary"
+                                    >Оставить заявку</a
+                                >
+                                <!-- Top bar btn -->
+                            </nav>
+                            <!-- Collapse end-->
+                        </div>
+                    </div>
+                    <!-- Site nav inner end-->
+                </header>
+                <!-- Header end-->
+            </div>
+
+            <main>
+                <article class="container additional-wrapper">
+                    <div class="page__content" style="padding: 20px 0px">
+                        <h1>Политика конфиденциальности</h1>
+
+                        <p>
+                            Ваша конфиденциальность важна для нас. В этой
+                            Политике конфиденциальности описано, как мы
+                            собираем, используем и защищаем личные данные
+                            пользователей нашего сайта, связанного с
+                            путешествиями, маршрутами и туристическими советами.
+                            Используя наш сервис, вы соглашаетесь с условиями
+                            сбора и обработки данных, описанными ниже.
+                        </p>
+
+                        <h2>1. Сбор информации</h2>
+                        <p>
+                            Мы собираем личные данные, такие как имя, адрес
+                            электронной почты и номер телефона, когда вы
+                            добровольно предоставляете их через формы подписки,
+                            обратной связи или другие взаимодействия с нашим
+                            сайтом, связанным с туристическими услугами.
+                        </p>
+
+                        <h2>2. Использование информации</h2>
+                        <p>Собранные данные используются для:</p>
+                        <ol>
+                            <li>
+                                Предоставления персонализированных рекомендаций
+                                по путешествиям и маршрутам;
+                            </li>
+                            <li>
+                                Связи с пользователями для ответа на запросы и
+                                предоставления информации;
+                            </li>
+                            <li>
+                                Рассылки обновлений, новостей и полезных советов
+                                по туризму;
+                            </li>
+                            <li>
+                                Улучшения качества обслуживания и удобства
+                                пользования сайтом;
+                            </li>
+                            <li>Соблюдения правовых требований.</li>
+                        </ol>
+
+                        <h2>3. Передача данных третьим лицам</h2>
+                        <p>
+                            Мы не продаем и не передаем личные данные третьим
+                            лицам без вашего предварительного уведомления.
+                            Исключение составляют партнеры, которые помогают нам
+                            в работе сайта и обязуются сохранять
+                            конфиденциальность информации.
+                        </p>
+
+                        <h2>4. Безопасность данных</h2>
+                        <p>
+                            Мы применяем современные меры безопасности для
+                            защиты ваших данных, включая шифрование, регулярные
+                            проверки и контроль доступа.
+                        </p>
+
+                        <h2>5. Файлы cookie</h2>
+                        <p>
+                            Для улучшения работы сайта и анализа поведения
+                            пользователей мы используем файлы cookie. Вы можете
+                            отключить их в настройках браузера, однако это может
+                            повлиять на функциональность сайта.
+                        </p>
+
+                        <h2>6. Ссылки на сторонние ресурсы</h2>
+                        <p>
+                            Наш сайт может содержать ссылки на сторонние сайты,
+                            связанные с туристической тематикой. Мы не несем
+                            ответственности за политику конфиденциальности и
+                            содержание этих ресурсов, но всегда рады вашим
+                            отзывам о них.
+                        </p>
+
+                        <h2>7. Согласие</h2>
+                        <p>
+                            Используя наш сайт, вы соглашаетесь с условиями
+                            данной Политики конфиденциальности.
+                        </p>
+
+                        <h2>8. Изменения в Политике конфиденциальности</h2>
+                        <p>
+                            Мы можем обновлять эту Политику в любое время без
+                            предварительного уведомления. Изменения вступают в
+                            силу сразу после публикации на сайте. Рекомендуем
+                            регулярно проверять актуальность документа.
+                        </p>
+
+                        <h2>9. Контакты</h2>
+                        <p>
+                            Если у вас возникли вопросы по поводу данной
+                            Политики конфиденциальности, пожалуйста, свяжитесь с
+                            нами по адресу marshrutnik@gmail.com.
+                        </p>
+
+                        <p>
+                            Благодарим за доверие. Мы стремимся обеспечить
+                            безопасность ваших данных и комфорт при планировании
+                            путешествий.
+                        </p>
+                    </div>
+                </article>
+            </main>
+
+            <!-- Footer start-->
+            <footer class="footer" id="footer">
+                <div class="footer-main bg-overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div
+                                class="col-lg-4 col-md-12 footer-widget footer-about"
+                            >
+                                <div class="footer-logo">
+                                    <h2 style="color: #97bc62ff">
+                                        Marshrutnik
+                                    </h2>
+                                </div>
+                                <p>
+                                    Благодарим за посещение нашего сайта. Мы
+                                    стремимся предоставить экспертные
+                                    рекомендации в сфере путешествий: маршруты,
+                                    советы и путеводители, чтобы сделать ваше
+                                    путешествие комфортным и интересным.
+                                </p>
+
+                                <h3 class="widget-title">
+                                    Подписка на новости!
+                                </h3>
+                                <form
+                                    class="newsletter-form"
+                                    action="thanks.html"
+                                    method="get"
+                                >
+                                    <div class="form-group">
+                                        <input
+                                            class="form-control form-control-lg"
+                                            id="email"
+                                            type="email"
+                                            name="email"
+                                            placeholder="Email "
+                                            autocomplete="off"
+                                            required
+                                        />
+                                        <button
+                                            class="btn btn-primary"
+                                            id="submit"
+                                        >
+                                            <i class="fa fa-paper-plane"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- About us end-->
+                            <div class="col-lg-4 col-md-6 footer-widget">
+                                <h3 class="widget-title">Быстрые ссылки</h3>
+                                <ul class="list-dash">
+                                    <li><a href="home.html">Главная</a></li>
+                                    <li><a href="about.html">О нас</a></li>
+                                    <li>
+                                        <a href="service.html">Наши услуги</a>
+                                    </li>
+                                    <li>
+                                        <a href="testimonials.html">Отзывы</a>
+                                    </li>
+                                    <li>
+                                        <a href="terms-of-use.html"
+                                            >Условия использования</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html"
+                                            >Политика конфиденциальности</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html"
+                                            >Политика cookies</a
+                                        >
+                                    </li>
+                                    <li><a href="contact.html">Контакты</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-6 footer-widget">
+                                <h3 class="widget-title">Контакты</h3>
+                                <div class="ts-contact-info">
+                                    <span class="ts-contact-icon float-left">
+                                        <i class="icon icon-map-marker2"></i>
+                                    </span>
+                                    <div class="ts-contact-content">
+                                        <h3 class="ts-contact-title">Адрес</h3>
+                                        <p>
+                                            ул. Зенкова 24, Алматы 050000,
+                                            Казахстан
+                                        </p>
+                                    </div>
+                                    <!-- Contact content end-->
+                                </div>
+
+                                <div class="ts-contact-info last">
+                                    <span class="ts-contact-icon float-left">
+                                        <i class="icon icon-envelope"></i>
+                                    </span>
+                                    <div class="ts-contact-content">
+                                        <h3 class="ts-contact-title">
+                                            Электронная почта
+                                        </h3>
+                                        <p>marshrutnik@gmail.com</p>
+                                    </div>
+                                    <!-- Contact content end-->
+                                </div>
+                                <div class="ts-contact-info">
+                                    <span class="ts-contact-icon float-left">
+                                        <i class="icon icon-phone3"></i>
+                                    </span>
+                                    <div class="ts-contact-content">
+                                        <h3 class="ts-contact-title">
+                                            Телефон
+                                        </h3>
+                                        <p>+77775259885</p>
+                                    </div>
+                                    <!-- Contact content end-->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Content row end-->
+                    </div>
+                    <!-- Container end-->
+                </div>
+            </footer>
+            <!-- Footer end-->
+
+            <!-- Cookie banner -->
+            <div class="cookie-wrapper show">
+                <div>
+                    <i class="bx bx-cookie"></i>
+                    <h2 style="text-align: center">Согласие на cookie</h2>
+                </div>
+
+                <div class="data">
+                    <p>
+                        Этот сайт использует cookie-файлы для того, чтобы
+                        обеспечить максимально удобный и персонализированный
+                        опыт путешествий.
+                        <a href="cookie-policy.html">Узнать больше...</a>
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <button class="cookie-button" id="acceptBtn">
+                        Принять
+                    </button>
+                    <button class="cookie-button" id="declineBtn">
+                        Отклонить
+                    </button>
+                </div>
+            </div>
+            <!-- End Cookie banner -->
+
+            <div
+                class="back-to-top affix"
+                id="back-to-top"
+                data-spy="affix"
+                data-offset-top="10"
+            >
+                <button class="btn btn-primary" title="Back to Top">
+                    <i class="fa fa-angle-double-up"></i>
+                    <!-- icon end-->
+                </button>
+                <!-- button end-->
+            </div>
+            <!-- End Back to Top-->
+
+            <!--
+      Javascript Files
+      ==================================================
+      -->
+
+            <!-- initialize jQuery Library (Google CDN) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+            <!-- Bootstrap jQuery (jsDelivr CDN as Bootstrap JavaScript is not on Google CDN) -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Owl Carousel (jsDelivr CDN) -->
+            <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+
+            <!-- Counter (use CDNJS) -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+            <!-- Waypoints (CDNJS) -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+            <!-- Colorbox (CDNJS) -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
+
+            <!-- Template custom scripts (local) -->
+            <script type="text/javascript" src="js/custom.js"></script>
+            <script type="text/javascript" src="js/cookiebanner.js"></script>
+        </div>
+        <!--Body Inner end-->
+    </body>
+</html>

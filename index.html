@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+    Basic Page Needs
+    ==================================================
+    -->
+        <meta charset="utf-8" />
+        <title>Marshrutnik</title>
+        <!--
+    Mobile Specific Metas
+    ==================================================
+    -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        />
+        <meta
+            name="description"
+            content="Откройте для себя лучшие туристические маршруты, полезные советы для путешествий и уникальные путеводители. Всё для комфортного и безопасного путешествия."
+        />
+        <meta
+            name="keywords"
+            content="путешествия, туризм, путеводители, туристические советы, выбор маршрута, советы путешественникам, планирование поездки, маршруты, путешествия по миру"
+        />
+        <meta
+            name="author"
+            content="Иван Петров, Анна Смирнова, Алексей Кузнецов, Елена Орлова"
+        />
+        <meta
+            property="og:title"
+            content="Путеводители, советы и маршруты для путешествий — Всё для туристов"
+        />
+        <meta
+            property="og:description"
+            content="Полезные советы, маршруты и путеводители для вашего следующего путешествия."
+        />
+        <!--
+    CSS
+    ==================================================
+    -->
+        <!-- Bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- Morris CSS -->
+        <link rel="stylesheet" href="css/morris.css" />
+        <!-- FontAwesome-->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <!-- Icon font-->
+        <link rel="stylesheet" href="css/icon-font.css" />
+        <!-- Owl Carousel-->
+
+        <link
+            rel="shortcut icon"
+            href="images/favicon.ico"
+            type="image/x-icon"
+        />
+
+        <!-- Colorbox-->
+        <link rel="stylesheet" href="css/colorbox.css" />
+        <!-- Template styles-->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Responsive styles-->
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file.-->
+        <!--if lt IE 9
+    script(src='js/html5shiv.js')
+    script(src='js/respond.min.js')
+    --></head>
+
+    <body>
+        <div class="body-inner">
+            <div class="site-top-2">
+                <header class="header nav-down" id="header-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="logo-area clearfix">
+                                <div class="logo col-lg-3 col-md-12">
+                                    <a href="index.html">
+                                        <h2 style="color: #2c5f2d">
+                                            Marshrutnik
+                                        </h2>
+                                    </a>
+                                </div>
+                                <!-- logo end-->
+                                <div class="col-lg-9 col-md-12 pull-right">
+                                    <ul class="top-info unstyled">
+                                        <li>
+                                            <span class="info-icon"
+                                                ><i class="icon icon-phone3"></i
+                                            ></span>
+                                            <div class="info-wrapper">
+                                                <p class="info-title">
+                                                    Поддержка 24/7
+                                                </p>
+                                                <p class="info-subtitle">
+                                                    +77775259885
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="info-icon"
+                                                ><i
+                                                    class="icon icon-envelope"
+                                                ></i
+                                            ></span>
+                                            <div class="info-wrapper">
+                                                <p class="info-title">
+                                                    Напишите нам
+                                                </p>
+                                                <p class="info-subtitle">
+                                                    marshrutnik@gmail.com
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Col End-->
+                            </div>
+                            <!-- Logo Area End-->
+                        </div>
+                    </div>
+                    <!-- Container end-->
+                    <div
+                        class="site-nav-inner site-navigation navigation navdown"
+                    >
+                        <div class="container">
+                            <nav class="navbar navbar-expand-lg">
+                                <button
+                                    class="navbar-toggler"
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation"
+                                >
+                                    <span class="navbar-toggler-icon"
+                                        ><i class="icon icon-menu"></i
+                                    ></span>
+                                </button>
+                                <!-- End of Navbar toggler-->
+                                <div
+                                    class="collapse navbar-collapse justify-content-start"
+                                    id="navbarSupportedContent"
+                                >
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a href="index.html">Главная</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="about.html">О нас</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="service.html">Услуги</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="testimonials.html"
+                                                >Отзывы</a
+                                            >
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="contact.html">Контакты</a>
+                                        </li>
+                                    </ul>
+                                    <!--Nav ul end-->
+                                </div>
+                                <a
+                                    href="contact.html"
+                                    class="top-right-btn btn btn-primary"
+                                    >Оставить заявку</a
+                                >
+                                <!-- Top bar btn -->
+                            </nav>
+                            <!-- Collapse end-->
+                        </div>
+                    </div>
+                    <!-- Site nav inner end-->
+                </header>
+                <!-- Header end-->
+            </div>
+
+            <div class="carousel slide" id="main-slide" data-ride="carousel">
+                <!-- Carousel inner-->
+                <div class="carousel-inner">
+                    <div
+                        class="carousel-item active"
+                        style="background-image: url(images/slider/bg1.webp)"
+                    >
+                        <div class="container">
+                            <div class="slider-content text-left">
+                                <div
+                                    class="col-md-12"
+                                    style="min-height: 450px; margin-top: 30px"
+                                >
+                                    <h2 class="slide-title title-light">
+                                        Добро пожаловать в мир путешествий
+                                    </h2>
+                                    <h3 class="slide-sub-title">
+                                        Исследуйте маршруты вместе с нами
+                                    </h3>
+                                    <p class="slider-description lead">
+                                        Планируйте идеальные поездки с помощью
+                                        наших авторских путеводителей,
+                                        практичных советов и тщательно
+                                        подобранных маршрутов. Мы поможем вам
+                                        открыть удивительные места, не упуская
+                                        ни одной детали.
+                                    </p>
+                                    <p>
+                                        <a
+                                            class="slider btn btn-primary"
+                                            href="about.html"
+                                            >Узнать больше</a
+                                        >
+                                        <a
+                                            class="slider btn btn-border"
+                                            href="service.html"
+                                            >Все маршруты</a
+                                        >
+                                    </p>
+                                </div>
+                                <!-- Col end-->
+                            </div>
+                            <!-- Slider content end-->
+                        </div>
+                        <!-- Container end-->
+                    </div>
+                    <!-- Carousel item 1 end-->
+                </div>
+                <!-- Carousel inner end-->
+            </div>
+            <!-- Carousel end-->
+
+            <section id="ts-features-light" class="ts-features-light">
+                <div class="container">
+                    <div class="row feature-light-row">
+                        <div class="col-md-4 text-center">
+                            <div class="ts-feature-box">
+                                <div class="ts-feature-info">
+                                    <div class="feature-img">
+                                        <img
+                                            src="images/icon/service-1.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h3 class="ts-feature-title">
+                                        Индивидуальные маршруты
+                                    </h3>
+                                    <p>
+                                        Мы подбираем маршруты под ваши
+                                        предпочтения — будь то природа,
+                                        городские прогулки или культурные
+                                        открытия. Ваш отдых — ваш стиль, мы лишь
+                                        помогаем его реализовать.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- feature box-1 end-->
+                        </div>
+                        <!-- col-1 end-->
+                        <div class="col-md-4 text-center border-left">
+                            <div class="ts-feature-box">
+                                <div class="ts-feature-info">
+                                    <div class="feature-img">
+                                        <img
+                                            src="images/icon/service-2.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h3 class="ts-feature-title">
+                                        Полезные советы туристам
+                                    </h3>
+                                    <p>
+                                        Наши материалы помогут вам избежать
+                                        лишних забот в дороге — от советов по
+                                        упаковке багажа до рекомендаций по
+                                        безопасности и экономии времени.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- feature box-2 end-->
+                        </div>
+                        <!-- col-2 end-->
+                        <div class="col-md-4 text-center border-left">
+                            <div class="ts-feature-box">
+                                <div class="ts-feature-info">
+                                    <div class="feature-img">
+                                        <img
+                                            src="images/icon/service-3.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h3 class="ts-feature-title">
+                                        Сопровождение в пути
+                                    </h3>
+                                    <p>
+                                        Мы сопровождаем вас на каждом этапе: от
+                                        подготовки поездки до возвращения домой.
+                                        С нашими рекомендациями каждый шаг будет
+                                        продуман и безопасен.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- feature box-3 end-->
+                        </div>
+                        <!-- col-3 end-->
+                    </div>
+                </div>
+            </section>
+            <!-- ts-feature light end-->
+
+            <section
+                class="ts-service-area service-area-pattern"
+                id="ts-service-area"
+            >
+                <div class="service-area-bg">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-md-12">
+                                <h2 class="section-title">
+                                    <span>Не упусти ничего важного</span>Почему
+                                    выбирают нас для путешествий?
+                                </h2>
+                            </div>
+                        </div>
+                        <!-- Title row end-->
+                        <div class="row">
+                            <div class="ts-service-box col-md-4">
+                                <div class="ts-service-box-img">
+                                    <h1>01</h1>
+                                </div>
+                                <div class="ts-service-box-info">
+                                    <h3 class="service-box-title">
+                                        Эксперты по туристическим маршрутам
+                                    </h3>
+                                    <p>
+                                        Наша команда состоит из опытных
+                                        путешественников и гидов, которые
+                                        разрабатывают уникальные маршруты. Мы
+                                        предлагаем только проверенные и
+                                        вдохновляющие направления, чтобы ваше
+                                        путешествие было незабываемым.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Service 1 end -->
+                            <div class="ts-service-box col-md-4">
+                                <div class="ts-service-box-img">
+                                    <h1>02</h1>
+                                </div>
+                                <div class="ts-service-box-info">
+                                    <h3 class="service-box-title">
+                                        Индивидуальные планы путешествий
+                                    </h3>
+                                    <p>
+                                        Каждый путешественник уникален. Мы
+                                        подбираем маршруты и советы, исходя из
+                                        ваших предпочтений и стиля путешествий,
+                                        чтобы вы смогли получить максимум
+                                        удовольствия от каждой поездки.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Service 2 end -->
+                            <div class="ts-service-box col-md-4">
+                                <div class="ts-service-box-img">
+                                    <h1>03</h1>
+                                </div>
+                                <div class="ts-service-box-info">
+                                    <h3 class="service-box-title">
+                                        Оценка интересов и предпочтений
+                                    </h3>
+                                    <p>
+                                        Мы проводим детальный анализ ваших
+                                        интересов, чтобы предложить лучшие
+                                        направления, экскурсии и активности. Это
+                                        помогает создать действительно
+                                        подходящий и насыщенный маршрут.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Service 3 end -->
+                            <!-- Col end -->
+                        </div>
+                        <div class="row">
+                            <div class="ts-service-box col-md-4">
+                                <div class="ts-service-box-img">
+                                    <h1>04</h1>
+                                </div>
+                                <div class="ts-service-box-info">
+                                    <h3 class="service-box-title">
+                                        Поддержка на каждом этапе
+                                    </h3>
+                                    <p>
+                                        Мы сопровождаем вас на всех этапах
+                                        путешествия: от планирования до
+                                        возвращения домой. Наша команда всегда
+                                        на связи, чтобы вы чувствовали себя
+                                        уверенно и спокойно.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Service 4 end -->
+                            <div class="ts-service-box col-md-4">
+                                <div class="ts-service-box-img">
+                                    <h1>05</h1>
+                                </div>
+                                <div class="ts-service-box-info">
+                                    <h3 class="service-box-title">
+                                        Забота о вашем путешествии
+                                    </h3>
+                                    <p>
+                                        Мы стремимся сделать каждое путешествие
+                                        осмысленным и комфортным. Наша цель —
+                                        помочь вам открыть мир с новой стороны,
+                                        учитывая все ваши пожелания и интересы.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Service 5 end -->
+                            <div class="ts-service-box col-md-4">
+                                <div class="ts-service-box-img">
+                                    <h1>06</h1>
+                                </div>
+                                <div class="ts-service-box-info">
+                                    <h3 class="service-box-title">
+                                        Результаты, подтверждённые
+                                        путешественниками
+                                    </h3>
+                                    <p>
+                                        Сотни довольных клиентов уже
+                                        воспользовались нашими рекомендациями.
+                                        Мы гордимся, что наши советы по
+                                        путешествиям помогают людям исследовать
+                                        новые уголки мира эффективно и
+                                        безопасно.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Service 6 end -->
+                            <!-- Col end -->
+                        </div>
+                        <!-- Content row end -->
+                        <!-- Content row end-->
+                    </div>
+                    <!-- Container end-->
+                </div>
+            </section>
+            <!-- Service Section end-->
+
+            <section class="testimonial-area" id="testimonial-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="accordion-title">
+                                <h3
+                                    class="column-title"
+                                    style="margin-bottom: 15px"
+                                >
+                                    <span>Наш FAQ</span> Часто задаваемые
+                                    вопросы
+                                </h3>
+                                <p>
+                                    Путешествия могут вызвать множество
+                                    вопросов. Мы собрали наиболее частые из них,
+                                    чтобы помочь вам подготовиться к поездке,
+                                    выбрать лучший маршрут и чувствовать себя
+                                    уверенно в дороге.
+                                </p>
+                            </div>
+                            <div id="accordion" class="accordion-area">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <a
+                                                href="#"
+                                                class="btn btn-link"
+                                                data-toggle="collapse"
+                                                data-target="#collapseOne"
+                                                aria-expanded="true"
+                                                aria-controls="collapseOne"
+                                            >
+                                                Что такое индивидуальный
+                                                туристический маршрут и зачем он
+                                                нужен?
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div
+                                        class="collapse show"
+                                        id="collapseOne"
+                                        aria-labelledby="headingOne"
+                                        data-parent="#accordion"
+                                    >
+                                        <div class="card-body">
+                                            <p>
+                                                Индивидуальный маршрут — это
+                                                персонализированный план
+                                                путешествия, созданный с учётом
+                                                ваших интересов и предпочтений.
+                                                Он позволяет избежать лишних
+                                                трат времени, увидеть больше
+                                                интересного и путешествовать
+                                                комфортно.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <a
+                                                href="#"
+                                                class="btn btn-link collapsed"
+                                                data-toggle="collapse"
+                                                data-target="#collapseThree"
+                                                aria-expanded="false"
+                                                aria-controls="collapseThree"
+                                            >
+                                                Как выбрать лучшие советы и
+                                                маршруты для путешествий?
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div
+                                        class="collapse"
+                                        id="collapseThree"
+                                        aria-labelledby="headingThree"
+                                        data-parent="#accordion"
+                                    >
+                                        <div class="card-body">
+                                            <p>
+                                                Определитесь с целью поездки и
+                                                вашими предпочтениями. Изучите
+                                                отзывы путешественников,
+                                                используйте специализированные
+                                                платформы и ресурсы, а также
+                                                консультируйтесь с нашими
+                                                экспертами, чтобы подобрать
+                                                идеальный маршрут.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingFour">
+                                        <h5 class="mb-0">
+                                            <a
+                                                href="#"
+                                                class="btn btn-link collapsed"
+                                                data-toggle="collapse"
+                                                data-target="#collapseFour"
+                                                aria-expanded="false"
+                                                aria-controls="collapseFour"
+                                            >
+                                                Как часто стоит анализировать
+                                                маршрут или менять планы?
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div
+                                        class="collapse"
+                                        id="collapseFour"
+                                        aria-labelledby="headingFour"
+                                        data-parent="#accordion"
+                                    >
+                                        <div class="card-body">
+                                            <p>
+                                                Регулярный пересмотр маршрута
+                                                помогает адаптироваться к
+                                                погодным условиям, изменениям в
+                                                расписании и новым идеям. Мы
+                                                рекомендуем анализировать планы
+                                                перед поездкой и после каждой
+                                                крупной остановки.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingFive">
+                                        <h5 class="mb-0">
+                                            <a
+                                                href="#"
+                                                class="btn btn-link collapsed"
+                                                data-toggle="collapse"
+                                                data-target="#collapseFive"
+                                                aria-expanded="false"
+                                                aria-controls="collapseFive"
+                                            >
+                                                Какие ресурсы вы предоставляете
+                                                для путешественников?
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div
+                                        class="collapse"
+                                        id="collapseFive"
+                                        aria-labelledby="headingFive"
+                                        data-parent="#accordion"
+                                    >
+                                        <div class="card-body">
+                                            <p>
+                                                Мы предоставляем готовые
+                                                маршруты, советы по упаковке
+                                                багажа, подборки
+                                                достопримечательностей,
+                                                рекомендации по транспорту и
+                                                жилью, а также консультации
+                                                специалистов, чтобы вы могли
+                                                путешествовать легко и уверенно.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion end -->
+                        </div>
+                        <!-- Col end-->
+                    </div>
+                    <!-- Content row end-->
+                </div>
+                <!-- Container end-->
+            </section>
+            <!-- Quote area end-->
+
+            <section id="ts-facts-area" class="ts-facts-area-bg bg-overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-12 column-left-title">
+                            <h2 class="column-title">17 лет в туризме</h2>
+                        </div>
+                        <div class="col-lg-7 col-md-12">
+                            <div class="container">
+                                <div class="row text-center">
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="ts-facts-bg">
+                                            <img
+                                                src="images/icon/fact1.png"
+                                                alt=""
+                                            />
+                                            <div class="ts-facts-content">
+                                                <h4 class="ts-facts-num">
+                                                    <span class="counterUp"
+                                                        >2435</span
+                                                    >
+                                                </h4>
+                                                <p class="facts-desc">
+                                                    Довольных путешественников
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- Facts 1 end-->
+                                    </div>
+                                    <!-- Col 1 end-->
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="ts-facts-bg">
+                                            <img
+                                                src="images/icon/fact2.png"
+                                                alt=""
+                                            />
+                                            <div class="ts-facts-content">
+                                                <h4 class="ts-facts-num">
+                                                    <span class="counterUp"
+                                                        >467</span
+                                                    >
+                                                </h4>
+                                                <p class="facts-desc">
+                                                    Опытных гидов
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- Facts 2 end-->
+                                    </div>
+                                    <!-- Col 2 end-->
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="ts-facts-bg">
+                                            <img
+                                                src="images/icon/fact3.png"
+                                                alt=""
+                                            />
+                                            <div class="ts-facts-content">
+                                                <h4 class="ts-facts-num">
+                                                    <span class="counterUp"
+                                                        >8588</span
+                                                    >
+                                                </h4>
+                                                <p class="facts-desc">
+                                                    Успешных маршрутов
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- Facts 3 end-->
+                                    </div>
+                                    <!-- Col 3 end-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row end-->
+                </div>
+                <!-- Container 2 end-->
+            </section>
+            <!-- Facts Area End -->
+
+            <section class="news" id="news">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <h2 class="section-title">
+                                <span>Путеводители и советы</span>Последние
+                                новости
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="latest-post post-large">
+                                <div class="latest-post-media">
+                                    <a class="latest-post-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="images/news/news1.webp"
+                                            alt="img"
+                                        />
+                                    </a>
+
+                                    <div class="post-body">
+                                        <a class="post-cat" href="#">Новости</a>
+                                        <h4 class="post-title">
+                                            <a
+                                                >Лучшие стратегии при выборе
+                                                маршрута</a
+                                            >
+                                        </h4>
+                                        <span class="post-item-date"
+                                            >25 октября 2025</span
+                                        >
+                                    </div>
+                                    <!-- Post body end-->
+                                </div>
+                                <!-- Post media end-->
+                            </div>
+                            <!-- Latest post end-->
+                        </div>
+                        <!-- Col big news end-->
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="latest-post">
+                                        <div class="post-body">
+                                            <a class="post-cat" href="#"
+                                                >Новости</a
+                                            >
+                                            <h4 class="post-title">
+                                                <a
+                                                    >Как выбрать лучшие
+                                                    туристические советы</a
+                                                >
+                                            </h4>
+                                            <span class="post-item-date"
+                                                >12 сентября 2024</span
+                                            >
+                                            <div class="post-text">
+                                                <p>
+                                                    Подобрать правильные советы
+                                                    по путешествиям — залог
+                                                    ярких впечатлений. Мы
+                                                    делимся методами, как
+                                                    подобрать актуальную
+                                                    информацию, адаптированную
+                                                    под ваш стиль отдыха и цели
+                                                    поездки.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Latest post end-->
+                                </div>
+                                <!-- Col end-->
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="latest-post">
+                                        <div class="post-body">
+                                            <a class="post-cat" href="#"
+                                                >Новости</a
+                                            >
+                                            <h4 class="post-title">
+                                                <a
+                                                    >Адаптация маршрута под
+                                                    изменения в планах</a
+                                                >
+                                            </h4>
+                                            <span class="post-item-date"
+                                                >21 июня 2024</span
+                                            >
+                                            <div class="post-text">
+                                                <p>
+                                                    Обстоятельства могут
+                                                    меняться, и путешествие
+                                                    должно подстраиваться. В
+                                                    статье рассказываем, как
+                                                    гибко корректировать маршрут
+                                                    и план поездки под изменения
+                                                    в жизни, чтобы отдых остался
+                                                    комфортным.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Latest post end-->
+                                </div>
+                                <!-- Col end-->
+                            </div>
+                            <!-- row end-->
+                        </div>
+                        <!-- Col small news end-->
+                    </div>
+                    <!-- Content row end-->
+                </div>
+                <!-- Container end-->
+            </section>
+            <!-- News end-->
+
+            <section id="call-to-action" class="call-to-action-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 align-self-center">
+                            <h3 class="call-to-action-title">
+                                Начните своё путешествие сегодня
+                            </h3>
+                            <p>
+                                Достигайте ярких впечатлений с помощью
+                                профессиональных советов и маршрутов,
+                                подобранных специально под ваши интересы.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 text-right">
+                            <a class="btn btn-box" href="contact.html"
+                                >Связаться с нами <br />Или звоните
+                                +77775259885</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Call to action end -->
+
+            <!-- Footer start-->
+            <footer class="footer" id="footer">
+                <div class="footer-main bg-overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div
+                                class="col-lg-4 col-md-12 footer-widget footer-about"
+                            >
+                                <div class="footer-logo">
+                                    <h2 style="color: #97bc62ff">
+                                        Marshrutnik
+                                    </h2>
+                                </div>
+                                <p>
+                                    Благодарим за посещение нашего сайта. Мы
+                                    стремимся предоставить экспертные
+                                    рекомендации в сфере путешествий: маршруты,
+                                    советы и путеводители, чтобы сделать ваше
+                                    путешествие комфортным и интересным.
+                                </p>
+
+                                <h3 class="widget-title">
+                                    Подписка на новости!
+                                </h3>
+                                <form
+                                    class="newsletter-form"
+                                    action="thanks.html"
+                                    method="get"
+                                >
+                                    <div class="form-group">
+                                        <input
+                                            class="form-control form-control-lg"
+                                            id="email"
+                                            type="email"
+                                            name="email"
+                                            placeholder="Email "
+                                            autocomplete="off"
+                                            required
+                                        />
+                                        <button
+                                            class="btn btn-primary"
+                                            id="submit"
+                                        >
+                                            <i class="fa fa-paper-plane"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- About us end-->
+                            <div class="col-lg-4 col-md-6 footer-widget">
+                                <h3 class="widget-title">Быстрые ссылки</h3>
+                                <ul class="list-dash">
+                                    <li><a href="home.html">Главная</a></li>
+                                    <li><a href="about.html">О нас</a></li>
+                                    <li>
+                                        <a href="service.html">Наши услуги</a>
+                                    </li>
+                                    <li>
+                                        <a href="testimonials.html">Отзывы</a>
+                                    </li>
+                                    <li>
+                                        <a href="terms-of-use.html"
+                                            >Условия использования</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html"
+                                            >Политика конфиденциальности</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html"
+                                            >Политика cookies</a
+                                        >
+                                    </li>
+                                    <li><a href="contact.html">Контакты</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-6 footer-widget">
+                                <h3 class="widget-title">Контакты</h3>
+                                <div class="ts-contact-info">
+                                    <span class="ts-contact-icon float-left">
+                                        <i class="icon icon-map-marker2"></i>
+                                    </span>
+                                    <div class="ts-contact-content">
+                                        <h3 class="ts-contact-title">Адрес</h3>
+                                        <p>
+                                            ул. Зенкова 24, Алматы 050000,
+                                            Казахстан
+                                        </p>
+                                    </div>
+                                    <!-- Contact content end-->
+                                </div>
+
+                                <div class="ts-contact-info last">
+                                    <span class="ts-contact-icon float-left">
+                                        <i class="icon icon-envelope"></i>
+                                    </span>
+                                    <div class="ts-contact-content">
+                                        <h3 class="ts-contact-title">
+                                            Электронная почта
+                                        </h3>
+                                        <p>marshrutnik@gmail.com</p>
+                                    </div>
+                                    <!-- Contact content end-->
+                                </div>
+                                <div class="ts-contact-info">
+                                    <span class="ts-contact-icon float-left">
+                                        <i class="icon icon-phone3"></i>
+                                    </span>
+                                    <div class="ts-contact-content">
+                                        <h3 class="ts-contact-title">
+                                            Телефон
+                                        </h3>
+                                        <p>+77775259885</p>
+                                    </div>
+                                    <!-- Contact content end-->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Content row end-->
+                    </div>
+                    <!-- Container end-->
+                </div>
+            </footer>
+            <!-- Footer end-->
+
+            <!-- Cookie banner -->
+            <div class="cookie-wrapper show">
+                <div>
+                    <i class="bx bx-cookie"></i>
+                    <h2 style="text-align: center">Согласие на cookie</h2>
+                </div>
+
+                <div class="data">
+                    <p>
+                        Этот сайт использует cookie-файлы для того, чтобы
+                        обеспечить максимально удобный и персонализированный
+                        опыт путешествий.
+                        <a href="cookie-policy.html">Узнать больше...</a>
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <button class="cookie-button" id="acceptBtn">
+                        Принять
+                    </button>
+                    <button class="cookie-button" id="declineBtn">
+                        Отклонить
+                    </button>
+                </div>
+            </div>
+            <!-- End Cookie banner -->
+
+            <div
+                class="back-to-top affix"
+                id="back-to-top"
+                data-spy="affix"
+                data-offset-top="10"
+            >
+                <button class="btn btn-primary" title="Back to Top">
+                    <i class="fa fa-angle-double-up"></i>
+                    <!-- icon end-->
+                </button>
+                <!-- button end-->
+            </div>
+            <!-- End Back to Top-->
+
+            <!--
+      Javascript Files
+      ==================================================
+      -->
+
+            <!-- initialize jQuery Library (Google CDN) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+            <!-- Bootstrap jQuery (jsDelivr CDN as Bootstrap JavaScript is not on Google CDN) -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Owl Carousel (jsDelivr CDN) -->
+            <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+
+            <!-- Counter (use CDNJS) -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+            <!-- Waypoints (CDNJS) -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+            <!-- Colorbox (CDNJS) -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js"></script>
+
+            <!-- Template custom scripts (local) -->
+            <script type="text/javascript" src="js/custom.js"></script>
+            <script type="text/javascript" src="js/cookiebanner.js"></script>
+        </div>
+        <!--Body Inner end-->
+    </body>
+</html>
